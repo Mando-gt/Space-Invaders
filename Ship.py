@@ -15,6 +15,6 @@ class Ship:
     def setDamage(damage):
         self.__damage__ = damage
     
-    def takeDamage(self,eDamage):
+    def takeDamage(self, eDamage):
         setVida(getLife() - eDamage)
 

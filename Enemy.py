@@ -4,4 +4,14 @@ class Enemy(Ship):
         self.__speed__ = speed
         self.__bomb__ = bomb
 
+    def getBomb(self):
+            return self.__bomb__
 
+    def setBomb(self, bomb):
+            self.__bomb__ = bomb
+
+    def setSpeed(self, speed):
+        self.__speed__ = speed
+
+    def getSpeed(self):
+        return self.__speed__
